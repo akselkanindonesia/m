@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khalis - Belanja Berkah, Berbagi Kebaikan</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body { font-family: 'Inter', sans-serif; }
+.gradient-bg { background: linear-gradient(135deg, #2D5A27 0%, #4A7C59 100%); }
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+.pulse-animation { animation: pulse 2s infinite; }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.7; } }
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Header -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-16">
+<div class="flex items-center">
+<div class="text-2xl font-bold text-green-700">🌿 Khalis</div>
+</div>
+<div class="hidden md:flex space-x-8">
+<a href="#tentang" class="text-gray-700 hover:text-green-600 transition-colors">Tentang Kami</a>
+<a href="#cara-kerja" class="text-gray-700 hover:text-green-600 transition-colors">Cara Kerja</a>
+<a href="#produk" class="text-gray-700 hover:text-green-600 transition-colors">Produk</a>
+<a href="#dampak" class="text-gray-700 hover:text-green-600 transition-colors">Dampak</a>
+</div>
+<button class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors">
+Masuk
+</button>
+</div>
+</nav>
+</header>
+
+<!-- Hero Section -->
+<section class="gradient-bg text-white py-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h1 class="text-5xl md:text-6xl font-bold mb-6">
+Belanja Berkah,<br>
+<span class="text-yellow-300">Berbagi Kebaikan</span>
+</h1>
+<p class="text-xl md:text-2xl mb-8 text-green-100 max-w-3xl mx-auto">
+Setiap pembelian produk UMKM Indonesia di Khalis adalah langkah nyata mendukung saudara di Palestina.
+Belanja dengan hati, berdonasi dengan ikhlas.
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-yellow-400 text-green-800 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors card-hover">
+🛒 Mulai Belanja Sekarang
+</button>
+<button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-700 transition-colors">
+🏪 Gabung sebagai UMKM
+</button>
+</div>
+<div class="mt-12 text-sm text-green-100">
+<p class="pulse-animation">✨ "Setiap rupiah yang kamu belanjakan adalah pahala yang mengalir"</p>
+</div>
+</div>
+</section>
+
+<!-- Tentang Kami -->
+<section id="tentang" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Tentang Khalis</h2>
+<div class="max-w-4xl mx-auto">
+<p class="text-lg text-gray-700 mb-6">
+Khalis lahir dari keyakinan sederhana: setiap transaksi bisa menjadi amal jariyah. Kami menghubungkan produk-produk berkualitas dari UMKM Indonesia dengan hati-hati yang ingin berbagi kebaikan untuk saudara di Palestina.
+</p>
+<p class="text-lg text-gray-700 mb-8">
+Dengan transparansi penuh dan komitmen pada keberkahan, Khalis memastikan setiap rupiah keuntungan mengalir langsung untuk membantu mereka yang membutuhkan, sambil memberdayakan ekonomi lokal Indonesia.
+</p>
+<div class="bg-green-50 p-8 rounded-2xl">
+<blockquote class="text-2xl font-medium text-green-800 italic">
+"Ketulusan dalam berbagi menciptakan keberkahan yang tak terhingga"
+</blockquote>
+<p class="text-green-600 mt-2">- Visi Khalis</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Cara Kerja -->
+<section id="cara-kerja" class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Cara Kerja Khalis</h2>
+<p class="text-xl text-gray-600">Mudah, transparan, dan penuh berkah</p>
+</div>
+<div class="grid md:grid-cols-4 gap-8">
+<div class="text-center card-hover bg-white p-8 rounded-2xl">
+<div class="text-5xl mb-4">🛍️</div>
+<h3 class="text-xl font-semibold mb-4 text-gray-900">Pilih Produk UMKM</h3>
+<p class="text-gray-600">Jelajahi ribuan produk berkualitas dari UMKM Indonesia yang telah terverifikasi</p>
+</div>
+<div class="text-center card-hover bg-white p-8 rounded-2xl">
+<div class="text-5xl mb-4">💳</div>
+<h3 class="text-xl font-semibold mb-4 text-gray-900">Checkout Aman</h3>
+<p class="text-gray-600">Proses pembayaran mudah dan aman dengan berbagai metode pilihan</p>
+</div>
+<div class="text-center card-hover bg-white p-8 rounded-2xl">
+<div class="text-5xl mb-4">❤️</div>
+<h3 class="text-xl font-semibold mb-4 text-gray-900">Donasi Otomatis</h3>
+<p class="text-gray-600">Sebagian keuntungan otomatis didonasikan untuk membantu Palestina</p>
+</div>
+<div class="text-center card-hover bg-white p-8 rounded-2xl">
+<div class="text-5xl mb-4">📊</div>
+<h3 class="text-xl font-semibold mb-4 text-gray-900">Lihat Dampak Real-time</h3>
+<p class="text-gray-600">Pantau transparansi donasi dan dampak sosial melalui dashboard khusus</p>
+</div>
+</div>
+<div class="text-center mt-12">
+<button class="bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors">
+Mulai Berbelanja Berkah
+</button>
+</div>
+</div>
+</section>
+
+<!-- Marketplace/Produk -->
+<section id="produk" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Produk Pilihan UMKM</h2>
+<p class="text-xl text-gray-600">Kualitas terbaik dari tangan-tangan kreatif Indonesia</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8 mb-12">
+<div class="card-hover bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
+<div class="text-4xl mb-4">🍯</div>
+<h3 class="text-2xl font-semibold mb-4 text-gray-900">Makanan & Minuman</h3>
+<p class="text-gray-700">Produk kuliner nusantara, makanan sehat, dan minuman tradisional yang autentik</p>
+</div>
+<div class="card-hover bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
+<div class="text-4xl mb-4">👗</div>
+<h3 class="text-2xl font-semibold mb-4 text-gray-900">Fashion & Aksesoris</h3>
+<p class="text-gray-700">Busana muslim, batik modern, dan aksesoris handmade dengan desain kontemporer</p>
+</div>
+<div class="card-hover bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-2xl">
+<div class="text-4xl mb-4">🎨</div>
+<h3 class="text-2xl font-semibold mb-4 text-gray-900">Kerajinan & Seni</h3>
+<p class="text-gray-700">Karya seni, kerajinan tangan, dan produk kreatif yang mencerminkan budaya Indonesia</p>
+</div>
+</div>
+<div class="text-center">
+<p class="text-lg text-gray-600 mb-6">Setiap produk dipilih dengan hati, dijual dengan berkah</p>
+<button class="bg-yellow-400 text-green-800 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors">
+🔍 Jelajahi Semua Produk
+</button>
+</div>
+</div>
+</section>
+
+<!-- Partner Section -->
+<section class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Partner Terpercaya</h2>
+<p class="text-xl text-gray-600 mb-12 max-w-3xl mx-auto">
+Kami bangga bekerja sama dengan partner dan NGO terpercaya yang mendukung visi tulus Khalis dalam menciptakan dampak sosial yang nyata.
+</p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+<div class="bg-white p-6 rounded-lg card-hover">
+<div class="text-3xl mb-2">🤝</div>
+<p class="text-sm text-gray-600">NGO Partner 1</p>
+</div>
+<div class="bg-white p-6 rounded-lg card-hover">
+<div class="text-3xl mb-2">🌍</div>
+<p class="text-sm text-gray-600">NGO Partner 2</p>
+</div>
+<div class="bg-white p-6 rounded-lg card-hover">
+<div class="text-3xl mb-2">❤️</div>
+<p class="text-sm text-gray-600">NGO Partner 3</p>
+</div>
+<div class="bg-white p-6 rounded-lg card-hover">
+<div class="text-3xl mb-2">🕊️</div>
+<p class="text-sm text-gray-600">NGO Partner 4</p>
+</div>
+</div>
+<blockquote class="text-xl italic text-gray-700">
+"Bersama-sama, kita membangun jembatan kebaikan yang menghubungkan hati Indonesia dengan Palestina"
+</blockquote>
+</div>
+</section>
+
+<!-- Impact/Dampak Sosial -->
+<section id="dampak" class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Dampak Nyata Bersama</h2>
+<p class="text-xl text-gray-600">Transparansi penuh untuk setiap kebaikan yang kita ciptakan</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8 mb-12">
+<div class="text-center bg-green-50 p-8 rounded-2xl">
+<div class="text-4xl font-bold text-green-600 mb-2">Rp 2.5M+</div>
+<p class="text-lg text-gray-700">Total donasi terkumpul</p>
+<p class="text-sm text-gray-500 mt-2">Disalurkan dengan transparansi penuh</p>
+</div>
+<div class="text-center bg-blue-50 p-8 rounded-2xl">
+<div class="text-4xl font-bold text-blue-600 mb-2">150+</div>
+<p class="text-lg text-gray-700">UMKM terbantu</p>
+<p class="text-sm text-gray-500 mt-2">Ekonomi lokal yang diberdayakan</p>
+</div>
+<div class="text-center bg-yellow-50 p-8 rounded-2xl">
+<div class="text-4xl font-bold text-yellow-600 mb-2">5,000+</div>
+<p class="text-lg text-gray-700">Keluarga terbantu</p>
+<p class="text-sm text-gray-500 mt-2">Di Indonesia dan Palestina</p>
+</div>
+</div>
+<div class="bg-gradient-to-r from-green-600 to-blue-600 text-white p-8 rounded-2xl text-center">
+<h3 class="text-2xl font-semibold mb-4">Cerita Sukses Terbaru</h3>
+<p class="text-lg mb-4">
+"Berkat dukungan komunitas Khalis, kami berhasil mengirimkan bantuan medis senilai Rp 500 juta untuk rumah sakit di Gaza,
+sekaligus membantu 50 UMKM lokal meningkatkan penjualan hingga 300%."
+</p>
+<button class="bg-white text-green-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+Lihat Dashboard Transparansi
+</button>
+</div>
+</div>
+</section>
+
+<!-- Testimonial -->
+<section class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Cerita dari Hati</h2>
+<p class="text-xl text-gray-600">Pengalaman tulus dari keluarga besar Khalis</p>
+</div>
+<div class="grid md:grid-cols-2 gap-8">
+<div class="bg-white p-8 rounded-2xl card-hover">
+<div class="flex items-center mb-4">
+<div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600 font-semibold mr-4">
+S
+</div>
+<div>
+<h4 class="font-semibold text-gray-900">Sari Indah</h4>
+<p class="text-gray-500">Pembeli Setia</p>
+</div>
+</div>
+<p class="text-gray-700 italic">
+"Setiap kali belanja di Khalis, hati saya tenang karena tahu setiap rupiah yang saya keluarkan tidak hanya untuk kebutuhan keluarga,
+tapi juga membantu saudara di Palestina. Transparansinya luar biasa!"
+</p>
+<div class="text-yellow-400 mt-4">⭐⭐⭐⭐⭐</div>
+</div>
+<div class="bg-white p-8 rounded-2xl card-hover">
+<div class="flex items-center mb-4">
+<div class="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-semibold mr-4">
+B
+</div>
+<div>
+<h4 class="font-semibold text-gray-900">Budi Santoso</h4>
+<p class="text-gray-500">UMKM Partner</p>
+</div>
+</div>
+<p class="text-gray-700 italic">
+"Bergabung dengan Khalis adalah keputusan terbaik untuk usaha kerajinan saya. Tidak hanya penjualan meningkat,
+tapi saya juga merasa berkontribusi untuk kebaikan yang lebih besar. Alhamdulillah berkah!"
+</p>
+<div class="text-yellow-400 mt-4">⭐⭐⭐⭐⭐</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section class="py-20 bg-white">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-4xl font-bold text-gray-900 mb-6">Pertanyaan Umum</h2>
+<p class="text-xl text-gray-600">Jawaban untuk pertanyaan yang sering ditanyakan</p>
+</div>
+<div class="space-y-6">
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Bagaimana cara berbelanja di Khalis?</h3>
+<p class="text-gray-700">Sangat mudah! Pilih produk favorit Anda, masukkan ke keranjang, lakukan checkout dengan metode pembayaran pilihan. Donasi akan otomatis dipotong dari keuntungan penjualan.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Apakah donasi benar-benar sampai ke Palestina?</h3>
+<p class="text-gray-700">Tentu saja! Kami bekerja sama dengan NGO terpercaya dan menyediakan dashboard transparansi real-time. Setiap donasi dapat dilacak hingga sampai ke penerima manfaat.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Bagaimana UMKM bisa bergabung dengan Khalis?</h3>
+<p class="text-gray-700">Klik tombol "Gabung sebagai UMKM", isi formulir pendaftaran, dan tim kami akan memverifikasi produk Anda. Proses mudah dan gratis!</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Berapa persen keuntungan yang didonasikan?</h3>
+<p class="text-gray-700">Kami mendonasikan 30-50% dari keuntungan bersih, tergantung kategori produk. Persentase ini selalu transparan dan dapat dilihat di setiap halaman produk.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Apakah ada biaya tambahan untuk berbelanja?</h3>
+<p class="text-gray-700">Tidak ada biaya tersembunyi! Harga yang tertera sudah final. Ongkos kirim dihitung berdasarkan lokasi dan berat produk dengan tarif standar.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Bagaimana jaminan kualitas produk?</h3>
+<p class="text-gray-700">Semua UMKM partner telah melalui proses verifikasi ketat. Kami juga menyediakan garansi kepuasan dan kebijakan retur yang mudah untuk memastikan pengalaman belanja terbaik.</p>
+</div>
+<div class="bg-gray-50 p-6 rounded-lg">
+<h3 class="text-lg font-semibold text-gray-900 mb-3">Bisakah saya melihat laporan penggunaan donasi?</h3>
+<p class="text-gray-700">Tentu! Dashboard transparansi kami menampilkan laporan real-time penggunaan donasi, foto dokumentasi penyaluran, dan testimoni dari penerima manfaat di Palestina.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CTA Final -->
+<section class="gradient-bg text-white py-20">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<h2 class="text-4xl md:text-5xl font-bold mb-6">
+Mulai Belanja Sekarang dan<br>
+<span class="text-yellow-300">Jadikan Setiap Rupiah Pahala</span>
+</h2>
+<p class="text-xl mb-8 text-green-100">
+Bergabunglah dengan ribuan keluarga Indonesia yang telah merasakan berkah belanja sambil berbagi kebaikan
+</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+<button class="bg-yellow-400 text-green-800 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-yellow-300 transition-colors card-hover">
+🛒 Mulai Belanja Berkah
+</button>
+<button class="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-green-700 transition-colors">
+📱 Download Aplikasi
+</button>
+</div>
+<p class="text-green-100 text-sm">
+✨ Gratis ongkir untuk pembelian pertama | 🔒 Pembayaran 100% aman | 📞 Customer service 24/7
+</p>
+</div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-16">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8 mb-8">
+<div>
+<div class="text-2xl font-bold mb-4">🌿 Khalis</div>
+<p class="text-gray-400 mb-4">Belanja berkah, berbagi kebaikan untuk Indonesia dan Palestina</p>
+<div class="flex space-x-4">
+<a href="#" class="text-gray-400 hover:text-white transition-colors">📘</a>
+<a href="#" class="text-gray-400 hover:text-white transition-colors">📷</a>
+<a href="#" class="text-gray-400 hover:text-white transition-colors">🐦</a>
+<a href="#" class="text-gray-400 hover:text-white transition-colors">📺</a>
+</div>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Belanja</h3>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#" class="hover:text-white transition-colors">Makanan & Minuman</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Fashion & Aksesoris</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Kerajinan & Seni</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Produk Terbaru</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Dukungan</h3>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#" class="hover:text-white transition-colors">Pusat Bantuan</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Cara Berbelanja</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Kebijakan Retur</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Hubungi Kami</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Kontak</h3>
+<ul class="space-y-2 text-gray-400">
+<li>📧 hello@khalis.id</li>
+<li>📞 +62 21 1234 5678</li>
+<li>📍 Jakarta, Indonesia</li>
+<li><a href="#" class="hover:text-white transition-colors">Dashboard Transparansi</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+<p>&copy; 2024 Khalis. Semua hak dilindungi. Dibuat dengan ❤️ untuk Indonesia dan Palestina</p>
+</div>
+</div>
+</footer>
+
+<script>
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+const target = document.querySelector(this.getAttribute('href'));
+if (target) {
+target.scrollIntoView({
+behavior: 'smooth',
+block: 'start'
+});
+}
+});
+});
+
+// Add scroll effect to header
+window.addEventListener('scroll', function() {
+const header = document.querySelector('header');
+if (window.scrollY > 100) {
+header.classList.add('shadow-lg');
+} else {
+header.classList.remove('shadow-lg');
+}
+});
+
+// Button click handlers
+document.querySelectorAll('button').forEach(button => {
+button.addEventListener('click', function() {
+if (this.textContent.includes('Mulai Belanja') || this.textContent.includes('Jelajahi')) {
+alert('🛒 Selamat datang di marketplace Khalis! Fitur belanja akan segera hadir.');
+} else if (this.textContent.includes('Gabung sebagai UMKM')) {
+alert('🏪 Terima kasih atas minat Anda! Tim kami akan segera menghubungi untuk proses pendaftaran UMKM.');
+} else if (this.textContent.includes('Dashboard Transparansi')) {
+alert('📊 Dashboard transparansi menampilkan laporan real-time penggunaan donasi. Fitur akan segera tersedia!');
+} else if (this.textContent.includes('Download Aplikasi')) {
+alert('📱 Aplikasi mobile Khalis sedang dalam pengembangan. Nantikan peluncurannya!');
+}
+});
+});
+</script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9793cd7b46d5582b',t:'MTc1Njg4NzM2Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
